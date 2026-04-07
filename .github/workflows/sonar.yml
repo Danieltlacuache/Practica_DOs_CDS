@@ -21,7 +21,7 @@ jobs:
         run: |
           sonar-scanner ^
             -Dsonar.projectKey=python-advanced-demo ^
-            -Dsonar.sources=src ^
-            -Dsonar.tests=test ^
+            -Dsonar.sources=sonar-python-advanced/src,bad_practices.py ^
+            -Dsonar.tests=sonar-python-advanced/test ^
             -Dsonar.host.url=http://localhost:9000 ^
             -Dsonar.token=%SONAR_TOKEN%
