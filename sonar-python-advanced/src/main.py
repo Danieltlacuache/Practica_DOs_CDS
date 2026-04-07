@@ -4,7 +4,7 @@
 from core.shopping.clothing import Clothing
 from core.shopping.customer import Customer
 from core.shopping.utils import Utils
-
+#holas
 
 def main():
     """Docstring for main."""
